@@ -1,0 +1,29 @@
+<div>
+    <img class="seals1" src="pic5.png">
+</div>
+<div class="armylogo">
+    <img src="lebsfpic4.png">
+</div>
+<div>
+    <img class="seals2" src="pic6.png">
+</div>
+
+<h4>The Official Webpage of The Special Forces Division "Commandos" of The Lebanese Armed Forces.</h4>
+<h5>HONOR.SACRIFICE.LOYALTY</h5>
+
+<div class="blogbox">
+    <input type="text" placeholder="title" ng-model="newBlog.title" />
+    <input type="text" placeholder="description" ng-model="newBlog.description" />
+
+    <button class="glyphicon glyphicon-floppy-disk" ng-click="addBlog(newBlog)"></button>
+
+<div class="panel panel-success col-xs-4 col-xs-offset-1 top" ng-repeat="blog in postsObject track by $index">
+  <div class="panel-heading">{{blog.title}}</div>
+  <div class="panel-body">
+    {{blog.description}}
+    </div>
+
+<textarea placeholder="comment" ng-model="comment"></textarea>
+   <button class="btn btn-danger btn-xs" ng-click="addComment(blog, $index, comment)">Add Comment</button>
+   <p ng-repeat="comment in blog.comments track by $index">{{comment}}</p>
+</div>

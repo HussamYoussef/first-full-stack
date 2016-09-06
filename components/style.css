@@ -1,0 +1,59 @@
+body {
+    background-image: url(lebsfpic10.jpg)
+}
+
+.horizontal ul {
+    margin-top: 25px;
+    display: inline-flex;
+    color: burlywood;
+}
+
+.horizontal ul li a {
+    margin-right: 25px;
+    color: burlywood;
+    font-size: 25px;
+}
+
+.armylogo img {
+    height: 25%;
+    width: 50%;
+    margin-left: 55px;
+    
+}
+.seals1 {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.seals2 {
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+h4 {
+    position: center;
+    font-family: serif;
+    color: burlywood;
+    clear: left;
+    margin-top: 15%;
+    margin-left: 60px;
+}
+
+h5 {
+    color: crimson;
+    margin-left: 270px;
+}
+
+.weblink {
+    color: burlywood;
+}
+
+.blogbox {
+    margin-left: 220px;
+}
+
